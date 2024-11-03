@@ -11,7 +11,11 @@ body {
     background-color: #1F2937;
 }
 .header-container, .hero-container, .member-cards, .quote-container, .call-to-action, .footer {
-    padding: 100px;
+    padding: 0 400px;
+}
+
+h1, p {
+    margin: 0;
 }
 
 .hire-us {
@@ -52,6 +56,21 @@ li {
 
 
 /* Hero */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .information > h1 {
     font-size: 3rem;
     color: #f9faf8;
@@ -59,14 +78,18 @@ li {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     color: #e5e7eb;
 }
 
-.hero-container > .hire-us {
+.information > .hire-us {
     font-weight: 700;
     border:none;
-    text-align: center;
+    align-self: flex-start;
+}
+
+.hero-container img {
+    border: 5px solid white ;
 }
 
 

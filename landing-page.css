@@ -6,13 +6,15 @@ body {
     flex-direction: column;
 }
 
+.header-container, .footer, .hero-container {
+    background-color: #1F2937;
+}
+
+/* Headers */
 .header-container {
     display: flex;
     justify-content: space-between;
-    
 }
-
-
 
 
 ul {
@@ -22,3 +24,25 @@ ul {
 li {
     padding-left: 16px;
 }
+
+/* Hero */
+img {
+
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/* Cards */
+
+/* Call-to Action */
+
+/* Footer */

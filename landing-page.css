@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0;
+    background-color: #1F2937;
 }
 .header-container, .footer , .hero-container{
     background-color: #1F2937;
@@ -90,7 +91,7 @@ p {
 }
 
 .hero-container img {
-    border: 5px solid white ;
+    border: 5px solid #b5260d ;
 }
 
 
@@ -122,7 +123,7 @@ p {
     color: black;
 }
 .card > img {
-    border: 5px solid #555;
+    border: 5px solid #b5260d;
     border-radius: 25px;
     height: 250px;
     width: 250px;
@@ -156,6 +157,11 @@ p {
 }
 /* Call-to Action */
 
+.action-container{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
 .call-to-action {
     border-radius: 10px;
     display: flex;
@@ -170,9 +176,8 @@ p {
     flex-direction: column;
 }
 
-
 .call-to-action > .hire-us {
-    border: 2px solid white;
+    border: 2px solid #b5260d;
     padding: 6px 16px;
     align-self: flex-end;
 }
